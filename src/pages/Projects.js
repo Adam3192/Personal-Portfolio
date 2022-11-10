@@ -8,8 +8,8 @@ function Projects() {
     <div className='projects'>
       <h1>My Personal Projects</h1>
       <div className='projectList'>
-        {ProjectList.map((project) => { 
-          return <ProjectItem key={project.name} name={project.name} image={project.image} />
+        {ProjectList.map((project, idx) => { 
+          return <ProjectItem id={idx} key={idx} name={project.name} image={project.image} />
         })}
       </div>
     </div>
