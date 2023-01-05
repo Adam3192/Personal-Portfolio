@@ -1,10 +1,10 @@
-import Proj1 from '../assets/logo.png';
+import Proj1 from '../assets/Tweeter.png';
 
 export const ProjectList = [
  {
-   name: 'Project 1',
+   name: 'Tweeter',
    image: Proj1,
-   skills: 'React, Node.js, MongoDB'
+   skills: 'MongoDB, Express, React, Node.js'
  },
 
  {
