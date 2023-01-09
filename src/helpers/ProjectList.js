@@ -20,9 +20,9 @@ export const ProjectList = [
  },
 
  {
-   name: 'Project 4',
+   name: 'Task Management App',
    image: Proj1,
-   skills: 'React, Node.js, MongoDB'
+   skills: 'React, Node.js, MongoDB, GraphQL'
  },
 
  {
