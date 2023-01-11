@@ -13,12 +13,16 @@ function ProjectDisplay() {
       <h1>{project.name}</h1>
 
       <a
-        target="_blank"
-        href=""
-        title="test"
         rel="noopener noreferrer nofollow"
+        title="Tweeter"
+        target="_blank"
+        href="https://youtu.be/nQaeL5m66mo"
       >
-        <img src={project.image} alt="Test Image" />
+        <img
+          alt="Tweeter"
+          style={{ maxWidth: '600px' }}
+          src="https://cdn.loom.com/sessions/thumbnails/65fff5f63bbd4c0485f6798c969cc544-with-play.gif"
+        />
       </a>
 
       <p>
