@@ -14,15 +14,11 @@ function ProjectDisplay() {
 
       <a
         rel="noopener noreferrer nofollow"
-        title="Tweeter"
+        title={project.name}
         target="_blank"
-        href="https://youtu.be/nQaeL5m66mo"
+        href={project.href}
       >
-        <img
-          alt="Tweeter"
-          style={{ maxWidth: '600px' }}
-          src="https://cdn.loom.com/sessions/thumbnails/65fff5f63bbd4c0485f6798c969cc544-with-play.gif"
-        />
+        <img alt="Project image" style={{ maxWidth: '600px' }} src={project.src} />
       </a>
 
       <p>
