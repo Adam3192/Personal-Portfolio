@@ -27,8 +27,8 @@ function ProjectDisplay() {
 
       <a
         target="_blank"
-        href="https://github.com/Adam3192/Tweeter"
-        title="Tweeter"
+        href={project.github}
+        title={project.name}
         rel="noopener noreferrer nofollow"
       >
         <GitHubIcon />
