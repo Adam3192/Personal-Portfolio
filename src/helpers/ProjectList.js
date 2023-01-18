@@ -1,6 +1,7 @@
 import Proj1 from '../assets/Tweeter.png'
 import Proj2 from '../assets/TaskListApp.png'
 import Proj3 from '../assets/PetAdoptionWebsite.png'
+import comingSoon from '../assets/ComingSoon.png'
 
 export const ProjectList = [
   {
@@ -25,23 +26,27 @@ export const ProjectList = [
     name: 'Pet Adoption Website',
     image: Proj3,
     skills: 'React, Node.js, MySQL, Express',
+    github: 'https://github.com/Adam3192/Pet-Adoption-Website'
   },
 
   {
     name: 'Task Management App',
-    image: 'Coming Soon!',
+    image: comingSoon,
     skills: 'React, Node.js, MongoDB, GraphQL',
+    src: comingSoon
   },
 
   {
     name: 'E-commerce Website',
-    image: 'Coming Soon!',
+    image: comingSoon,
     skills: 'React, Node.js, MongoDB',
+    src: comingSoon
   },
 
   {
     name: 'Project 6',
-    image: 'Coming Soon!',
+    image: comingSoon,
     skills: 'React, Node.js, MongoDB',
+    src: comingSoon
   },
 ]
