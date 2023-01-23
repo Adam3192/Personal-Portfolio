@@ -26,6 +26,8 @@ export const ProjectList = [
     name: 'Pet Adoption Website',
     image: Proj3,
     skills: 'React, Node.js, MySQL, Express',
+    href: 'https://youtu.be/0MXagvF3Q3E',
+    src: 'https://cdn.loom.com/sessions/thumbnails/fabfbb6383c94cc98d21662fa323cd10-with-play.gif',
     github: 'https://github.com/Adam3192/Pet-Adoption-Website'
   },
 
