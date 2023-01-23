@@ -1,8 +1,8 @@
 import React from 'react'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import EmailIcon from '@material-ui/icons/Email'
-import GithubIcon from '@material-ui/icons/GitHub'
-import '../styles/Home.css';
+import GitHubIcon from '@material-ui/icons/GitHub'
+import '../styles/Home.css'
 
 function Home() {
   return (
@@ -12,26 +12,46 @@ function Home() {
         <div className="prompt">
           {' '}
           <p>A software developer with a passion for learning and creating!</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <a
+            target="_blank"
+            href='https://www.linkedin.com/in/adam-dixon1'
+            rel="noopener noreferrer nofollow"
+          >
+            <LinkedInIcon />
+          </a>
+          <a
+            target="_blank"
+            href='mailto:jadixon3192@gmail.com'
+            rel="noopener noreferrer nofollow"
+          >
+            <EmailIcon />
+          </a>
+          <a
+            target="_blank"
+            href='https://github.com/Adam3192'
+            rel="noopener noreferrer nofollow"
+          >
+            <GitHubIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
         <h1>Skills</h1>
-        <ol className='list'>
-           <li className='item'>
+        <ol className="list">
+          <li className="item">
             <h2>Front-End</h2>
             <span>ReactJS, HTML, CSS, Ionic, NPM, BootStrap, </span>
-           </li>
-           <li className='item'>
+          </li>
+          <li className="item">
             <h2>Back-End</h2>
-            <span>NodeJS, ExpressJS, GraphQL, ApolloServer, MySQL, MongoDB, AWS S3</span>
-           </li>
-           <li className='item'>
+            <span>
+              NodeJS, ExpressJS, GraphQL, ApolloServer, MySQL, MongoDB, AWS S3
+            </span>
+          </li>
+          <li className="item">
             <h2>Languages</h2>
             <span>JavaScript, TypeScript</span>
-           </li>
+          </li>
         </ol>
       </div>
     </div>
