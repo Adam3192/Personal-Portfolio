@@ -40,17 +40,17 @@ function Home() {
         <ol className="list">
           <li className="item">
             <h2>Front-End</h2>
-            <span>ReactJS, HTML, CSS, Ionic, NPM, BootStrap, </span>
+            <span>ReactJS, Angular, HTML, CSS, Ionic, NPM, BootStrap </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              NodeJS, ExpressJS, GraphQL, ApolloServer, MySQL, MongoDB, AWS S3
+              NodeJS, ExpressJS, GraphQL, ApolloServer, MySQL, MongoDB, AWS S3, AWS RDS, API/REST API
             </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, TypeScript</span>
+            <span>JavaScript, TypeScript, HTML 5, CSS 3</span>
           </li>
         </ol>
       </div>

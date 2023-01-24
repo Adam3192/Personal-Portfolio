@@ -11,6 +11,7 @@ export const ProjectList = [
     href: 'https://youtu.be/nQaeL5m66mo',
     src: 'https://cdn.loom.com/sessions/thumbnails/65fff5f63bbd4c0485f6798c969cc544-with-play.gif',
     github: 'https://github.com/Adam3192/Tweeter',
+    description: 'Users can register a new account, login, post a tweet, view tweets, edit their tweets, delete tweets, view their profile and the profiles of other users and search for other users!'
   },
 
   {
@@ -32,7 +33,7 @@ export const ProjectList = [
   },
 
   {
-    name: 'Task Management App',
+    name: 'Project Management App',
     image: comingSoon,
     skills: 'React, Node.js, MongoDB, GraphQL',
     src: comingSoon
@@ -46,9 +47,9 @@ export const ProjectList = [
   },
 
   {
-    name: 'Project 6',
+    name: 'Social Vibez',
     image: comingSoon,
-    skills: 'React, Node.js, MongoDB',
+    skills: 'React, Node.js, MySQL, Express',
     src: comingSoon
   },
 ]

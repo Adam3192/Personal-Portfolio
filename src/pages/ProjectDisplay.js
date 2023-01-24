@@ -9,19 +9,21 @@ function ProjectDisplay() {
   const project = ProjectList[id]
 
   return (
-    <div className="project">
+    <div id="phone" className="project">
       <h1>{project.name}</h1>
+      <p className="style1">{project.description}</p>
 
       <a
+        className="style3"
         rel="noopener noreferrer nofollow"
         title={project.name}
         target="_blank"
         href={project.href}
       >
-        <img alt="Project image" style={{ maxWidth: '600px' }} src={project.src} />
+        <img className="style4" alt="Project image" src={project.src} />
       </a>
 
-      <p>
+      <p className="style2">
         <b>Skills:</b> {project.skills}
       </p>
 
