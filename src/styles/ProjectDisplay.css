@@ -28,43 +28,142 @@
 }
 
 .project .style1 {
-font-size: 20px;
-max-width: 600px;
+  font-size: 20px;
+  max-width: 600px;
 }
 
 .project .style4 {
-max-width: 600px;
+  max-width: 600px;
 }
 
-@media only screen and (max-width: 845px) {
-
- .project {
-  display: flex;
-  justify-content: space-around;
- }
-
- .project .style1 {
-  font-size: 20px;
-  max-width: 355px;
-  margin-top: 0px;
+@media (orientation: landscape) and (max-width: 1400px) {
+  .project {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
   }
 
- .project .style2 {
-  font-size: 20px;
-  max-width: 325px;
+  .project .style1 {
+    font-size: 23px;
+    max-width: 555px;
+    margin-top: 0px;
   }
 
- .project .style3 {
-  max-width: 355px;
+  .project .style2 {
+    font-size: 22px;
+    max-width: 400px;
   }
 
- .project .style3 img {
-  font-size: 20px;
-  max-width: 325px;
+  .project .style3 {
+    max-width: 555px;
   }
 
- .project h1 {
-  font-size: 30px;
-  margin-bottom: 5px;
+  .project .style3 img {
+    font-size: 20px;
+    max-width: 555px;
+  }
+
+  .project h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .project {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .project .style1 {
+    font-size: 23px;
+    max-width: 455px;
+    margin-top: 0px;
+  }
+
+  .project .style2 {
+    font-size: 20px;
+    max-width: 325px;
+  }
+
+  .project .style3 {
+    max-width: 455px;
+  }
+
+  .project .style3 img {
+    font-size: 20px;
+    max-width: 455px;
+  }
+
+  .project h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 850px) {
+  .project {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+  }
+
+  .project .style1 {
+    font-size: 23px;
+    max-width: 455px;
+    margin-top: 0px;
+  }
+
+  .project .style2 {
+    font-size: 20px;
+    max-width: 325px;
+  }
+
+  .project .style3 {
+    max-width: 455px;
+  }
+
+  .project .style3 img {
+    font-size: 20px;
+    max-width: 455px;
+  }
+
+  .project h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .project {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .project .style1 {
+    font-size: 20px;
+    max-width: 355px;
+    margin-top: 0px;
+  }
+
+  .project .style2 {
+    font-size: 20px;
+    max-width: 325px;
+  }
+
+  .project .style3 {
+    max-width: 355px;
+  }
+
+  .project .style3 img {
+    font-size: 20px;
+    max-width: 325px;
+  }
+
+  .project h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
   }
 }
