@@ -21,6 +21,7 @@ export const ProjectList = [
     href: 'https://youtu.be/0KvGnfs7xQw',
     src: 'https://cdn.loom.com/sessions/thumbnails/f0204ac2ed1943eb880031fed8bf1032-with-play.gif',
     github: 'https://github.com/Adam3192/Task-Management-App',
+    description: 'Task Lisk App built using Ionic framework. Users can add a task, delete a task and also mark tasks as complete or incomplete!'
   },
 
   {
@@ -29,7 +30,8 @@ export const ProjectList = [
     skills: 'React, Node.js, MySQL, Express',
     href: 'https://youtu.be/0MXagvF3Q3E',
     src: 'https://cdn.loom.com/sessions/thumbnails/fabfbb6383c94cc98d21662fa323cd10-with-play.gif',
-    github: 'https://github.com/Adam3192/Pet-Adoption-Website'
+    github: 'https://github.com/Adam3192/Pet-Adoption-Website',
+    description: 'Users can add a new pet, view all existing pets, view a single pet, edit a pet and delete a pet!'
   },
 
   {
