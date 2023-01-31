@@ -56,6 +56,13 @@
  font-size: 20px;
 }
 
+@media (orientation: landscape) and (max-width: 1130px) {
+  .about .prompt {
+    margin-bottom: 33px;
+  }
+
+}
+
 @media (orientation: landscape) and (max-width: 850px) {
 
   .about {
@@ -142,6 +149,35 @@
     margin-top: 10px;
     font-size: 20px;
     width: 80%;
+    margin-bottom: 30px;
+  }
+ 
+  .skills {
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+ 
+  .skills h2 {
+    font-size: 30px;
+  }
+ }
+
+@media only screen and (max-width: 321px) {
+  .about {
+    height: 70vh;
+  }
+
+  .about h2 {
+    font-size: 40px;
+  }
+ 
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+    margin-bottom: 30px;
   }
  
   .skills {

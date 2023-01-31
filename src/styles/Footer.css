@@ -67,6 +67,10 @@
 @media only screen and (max-width: 395px) {
   .footer {
     margin-top: 5px;
-    height: 200px;
+    height: 230px;
+  }
+
+  .footer p {
+    padding-bottom: 10px;
   }
 }
