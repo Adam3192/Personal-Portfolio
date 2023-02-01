@@ -80,3 +80,24 @@
     height: 300px;
   }
 }
+
+@media only screen and (max-width: 330px) {
+  .heading {
+    margin-left: 5px;
+    font-size: 25px;
+  }
+
+  .projectList {
+    width: 100%;
+  }
+
+  .projectItem {
+    width: 200px;
+    height: 250px;
+  }
+
+  .projectItem h1 {
+   font-size: 17px;
+   margin-top: 15px;
+  }
+}

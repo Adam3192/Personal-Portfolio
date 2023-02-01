@@ -140,6 +140,7 @@
   .project {
     display: flex;
     justify-content: space-around;
+    height: 580px;
   }
 
   .project .style1 {
@@ -160,6 +161,39 @@
   .project .style3 img {
     font-size: 20px;
     max-width: 325px;
+  }
+
+  .project h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .project {
+    display: flex;
+    justify-content: space-around;
+    height: 580px;
+  }
+
+  .project .style1 {
+    font-size: 20px;
+    max-width: 300px;
+    margin-top: 0px;
+  }
+
+  .project .style2 {
+    font-size: 20px;
+    max-width: 300px;
+  }
+
+  .project .style3 {
+    max-width: 300px;
+  }
+
+  .project .style3 img {
+    font-size: 20px;
+    max-width: 300px;
   }
 
   .project h1 {

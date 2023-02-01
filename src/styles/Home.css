@@ -56,7 +56,20 @@
  font-size: 20px;
 }
 
+@media (orientation: landscape) and (max-width: 1600px) {
+ .about {
+  height: 70vh;
+ }
+  .about .prompt {
+    margin-bottom: 33px;
+  }
+
+}
+
 @media (orientation: landscape) and (max-width: 1130px) {
+ .about {
+  height: 70vh;
+ }
   .about .prompt {
     margin-bottom: 33px;
   }
@@ -114,6 +127,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .about {
+    height: 50vh;
+  }
+
   .about h2 {
     font-size: 40px;
   }
@@ -138,7 +155,7 @@
 
 @media only screen and (max-width: 395px) {
   .about {
-    height: 40vh;
+    height: 45vh;
   }
 
   .about h2 {
